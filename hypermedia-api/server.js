@@ -33,7 +33,7 @@ app.get("/", (req, res) => {
         res.send("<h2>Welcome to the Node Hypermedia API</h2>");
     }, 7000); */
 
-    res.send("<h2>Welcome to the Node Hypermedia API</h2>");
+    res.send('<h2 style="color: red;">Welcome to the Node Hypermedia API</h2>'); // Met le texte en rouge
     
 })
 
@@ -43,7 +43,7 @@ app.post("/message", async (req, res) =>{
         "Last-Modified": "Wednesday, 27 Sept 2023"
     }) */
     
-    res.send(`<div><h3>Hello World</h3></div>`);
+    res.send(`<div><h3>Hello World - Salut les copains !</h3></div>`);
 });
 
 app.post("/script", async (req, res) =>{
