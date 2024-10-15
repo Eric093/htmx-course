@@ -9,9 +9,19 @@
 </head>
 <body>
 
-    <div hx-post="http://localhost:1330/message">
+    <button type="button" hx-post="http://localhost:1330/message" hx-target="#post-response">
         Make POST Request
+    </button>
+
+    <button  type="button" hx-get="http://localhost:1330/" hx-target="#get-response">
+        Make GET Request
+    </button>
+
+    <div id="post-response">
+
     </div>
-    
+    <div id="get-response">
+
+    </div>
 </body>
 </html>
