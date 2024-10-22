@@ -46,6 +46,17 @@ app.post("/message", async (req, res) =>{
     res.send(`<div><h3>Hello World - Salut les copains !</h3></div>`);
 });
 
+/* Ajout manuel pour test du menu  */
+app.post("/news", async (req, res) =>{
+
+    /* res.set({
+        "Last-Modified": "Wednesday, 27 Sept 2023"
+    }) */
+    
+    res.send(`<div><h3>Affichage des News</h3></div>`);
+});
+/* ------------------------------- */
+
 app.post("/script", async (req, res) =>{
 
     

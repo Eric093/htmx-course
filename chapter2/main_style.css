@@ -12,12 +12,14 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    cursor: pointer;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
     color: rgb(41, 88, 241);
+    cursor: pointer;
   }
   
   /* Add a color to the active/current link */
